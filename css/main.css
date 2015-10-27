@@ -122,6 +122,7 @@ PAGE: PORTFOLIO
 	margin: 2.5%;
 	background-color: #f5f5f5;
 	color: #bdc3c7;
+	overflow: hidden;
 }
 
 #gallery li a p{
@@ -130,6 +131,12 @@ PAGE: PORTFOLIO
 	font-size: 0.75em;
 	color: #525252;
 }
+
+#gallery img{
+	transition: all .75s ease;
+}
+
+#gallery img:hover { transform: scale(1.1); }
 
 
 
